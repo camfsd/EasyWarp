@@ -19,7 +19,7 @@ public class FileManager {
 
     public File getOldFile() {
         String fName = "warps.data";
-        return new File("plugins/" + EasyWarp.name + "/" + fName);
+        return new File("plugins/" + EasyWarp.NAME + "/" + fName);
     }
 
     public FileManager() {

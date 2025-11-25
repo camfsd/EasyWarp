@@ -143,7 +143,7 @@ public class Helper {
     }
 
     public static Plugin getPlugin() {
-        return Bukkit.getPluginManager().getPlugin(EasyWarp.name);
+        return Bukkit.getPluginManager().getPlugin(EasyWarp.NAME);
     }
 
     public static void sendParsedMessage(CommandSender sender, List<String> messages, HashMap<String, String> values) {
